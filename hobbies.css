@@ -1,0 +1,29 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+.profile-icon{
+    border-radius: 60px;
+    height: 80px;
+}
+.content {
+    display: flex;
+    align-items: center;
+    margin: 30px 20px 0 20px;
+}
+.content .box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content .box .dream {
+    flex-direction: column;
+    width: 32%;
+}
+
+.content .box .dream img{
+    border-radius: 5%;
+    width: 100%;
+    padding-bottom: 10px;
+}
